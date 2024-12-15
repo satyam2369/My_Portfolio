@@ -1,0 +1,38 @@
+.readmore-main{
+    /* background-color: rgb(241, 241, 255); */
+    background-color: var(--background);
+    height: 100%;
+}
+.readmore-conatainer{
+    /* display: flex; */
+    padding: 2% 10%;
+    
+}
+.readmore-discription{
+    background-color: rgb(244, 244, 244);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 2%;
+    border-radius: 10px;
+}
+.readmore-proj-title{
+    background: linear-gradient(89.97deg, #8b2fed 1.84%, #f17f41 102.67%);
+    /* box-shadow: rgba(255, 176, 103, 0.322) 0px 8px 24px; */
+    border-radius: 5px;
+    padding: 1% 2%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.readmore-carosel-dis{
+    display: flex;
+    
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.readmore-large-detail{
+    padding: 1% 2%;
+    background-color: rgb(244, 244, 244);
+    margin-top: 4%;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

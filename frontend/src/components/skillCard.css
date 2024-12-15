@@ -1,0 +1,35 @@
+.card {
+    flex: 1 1 calc(22% - 10px); /* Adjust the width to take 1/3rd of the row, with some spacing */
+    max-width: calc(22% - 10px); /* Ensure it doesn't exceed 1/3rd of the row */
+    box-sizing: border-box;
+    height: 45vh;
+    background-color: #070526fd;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+    margin-bottom: 20px; /* Add some margin at the bottom for spacing between rows */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-content {
+    text-align: center;
+}
+
+.card-image {
+    width: 10vw;
+    
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+    margin: 0;
+}

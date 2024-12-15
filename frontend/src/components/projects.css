@@ -1,0 +1,25 @@
+.proj_container{
+    padding: 4% 9%;
+    background-color: var(--background);
+    /* height: 70vh; */
+    display: flex;
+    /* background-color: #1a354a; */
+    
+
+    /* width: 90vw; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.proj_main{
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 100vh;
+    background-color: var(--background);
+    /* position: sticky; */
+    /* top: 0; */
+}
+.my_proj{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}

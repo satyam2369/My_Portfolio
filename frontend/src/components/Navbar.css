@@ -1,0 +1,66 @@
+.NavMain{
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    position: sticky;
+    height: 7vh;
+
+    padding: 1% 10%;
+    display: flex;
+    z-index: 3;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 20px 0px;
+
+    
+}
+.details-container{
+    display: flex;
+}
+
+.email{
+    margin-top: 2.5%;
+    margin-left: 1vw;
+}
+.name{
+    margin-top: 0vh;
+    /* margin-left: 15vh; */
+    font-size: 2rem;
+    font-weight:350;
+}
+.name span{
+    font-weight: 700;
+    color: rgb(66, 33, 33);
+}
+.phone{
+    margin-top: 2.5%;
+    margin-left: 2vw;
+}
+.links{
+    margin-left: 10vw;
+    margin-top: 0.8%;
+}
+.links a{
+    margin-left: 1vw;
+    text-decoration: none;
+    /* color: black; */
+    
+}
+.nav-link{
+    color: black;
+}
+.hire{
+    margin-left: 2vw;
+    padding: 8px 20px;
+    height: 5.5vh;
+    width: 8vw;
+    background-color: var(--primary-color);
+    border-style: none;
+    border-radius: 700px;
+    border-top-left-radius: 0;
+    font-weight: 550;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.hire span{
+    color: var(--secondary-color);
+}

@@ -1,0 +1,134 @@
+.hire-form-main {
+    background-color: #ffffff;
+    padding: 8% 8%;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 1px solid rgb(210, 210, 210);
+}
+
+.hire-input-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.material-field-input {
+    background-color: #ffffff;
+    font-size: 18px;
+    padding: 13px 15px;
+    margin-bottom: 20px;
+    width: calc(100% - 30px);
+    display: block;
+    border-radius: 5px;
+    border: 2px solid #828282;
+}
+
+.material-field-input:focus,
+.material-field-input:valid {
+    outline: none;
+    border: 2px solid var(--primary-color);
+}
+
+.material-field-input:focus ~ .material-field-label,
+.material-field-input:valid ~ .material-field-label {
+    color: var(--primary-color);
+    transform: scale(0.75) translate(-13px, -30px);
+}
+
+.material-field-label {
+    color: #717171;
+    font-size: 16px;
+    background-color: #ffffff;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    top: 15px;
+    left: 15px;
+    padding: 0 8px;
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1) all;
+    background: #ffffff;
+}
+
+.material-field {
+    position: relative;
+}
+
+
+
+.file-upload-label {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #757575;
+    cursor: pointer;
+    flex-grow: 1;
+  }
+  
+  #file-upload {
+    display: none;
+    
+  }
+
+  .material-field-file{
+    border: 2px solid #c0c0c3;
+    padding: 2%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid #828282;
+  }
+
+  .hire-text-area{
+    width: calc(100% - 5px);
+    border-radius: 5px;
+    overflow: hidden;
+    color: #323232;
+    background: #ffffff;
+    border: 2px solid #c0c0c3;
+    font-size: 1rem;
+    padding: 1%;
+  }
+  .hire-text-area::placeholder{
+    color: #A5A5A5;
+  }
+
+  
+
+
+  
+
+
+  .hire-form-submit-btn {
+    margin-top: 2%;
+  background-color: #FFFFFF;
+  border: 2px solid rgb(121, 121, 121);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #000000;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .50rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.hire-form-submit-btn:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: 2px solid black;
+}
+
+.hire-form-submit-btn:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button-39:focus-visible {
+  box-shadow: none;
+}

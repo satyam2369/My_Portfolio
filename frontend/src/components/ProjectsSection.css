@@ -1,0 +1,35 @@
+.proj-sec-container{
+    padding: 3% 9%;
+    /* background-color: var(--background); */
+    /* background-color: rgb(255, 255, 255); */
+    
+    /* height: 70vh; */
+    display: flex;
+    /* background-color: #1a354a; */
+    
+
+    /* width: 90vw; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin-bottom: 7%; */
+    
+}
+.proj-sec-main{
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 100%;
+    background: linear-gradient(to bottom,  rgb(239, 243, 252),rgb(247, 249, 253));
+    margin-top: 0;
+    /* background-color: var(--background); */
+    /* position: sticky; */
+    /* top: 0; */
+}
+/* .my_proj{
+    text-align: center;
+    color: rgb(0, 0, 0);
+} */
+
+.proj-sec-heading{
+    text-align: center;
+    margin: 0;
+}

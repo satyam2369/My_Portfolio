@@ -1,0 +1,54 @@
+.select_work{
+    display: flex;
+    height: 60vh;
+    width: 50vw;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1vw;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+.job{
+    /* background-color: rgb(179, 216, 216); */
+    display: flex;
+    flex-direction: column;
+}
+.job_img{
+    height: 40vh;
+    margin-top: 4vh;
+    transition: transform 0.3s ease-in-out;
+   
+}
+.provide-Job {
+    width: 6vw;
+    align-self: center;
+    margin-top: 2vh;
+}
+.hireme_main{
+    background-color: var(--background);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.freelance{
+    display: flex;
+    flex-direction: column;
+}
+.freelace_img{
+    height: 50vh;
+    /* position: absolute; */
+    margin-left: 0vw;
+    /* z-index: 0; */
+    margin-top: -4vh;
+    transition: transform 0.3s ease-in-out;
+}
+.provide-freelance{
+    width: 7vw;
+    align-self: center;
+    margin-top: 0vh;
+}
+.job_img:hover, .freelace_img:hover {
+    transform: scale(1.05);
+  }
+

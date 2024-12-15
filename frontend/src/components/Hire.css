@@ -1,0 +1,10 @@
+.hire-main{
+    display: flex;
+    padding: 3.5% 11%;
+    justify-content: space-between;
+    /* background-color: var(--background); */
+}
+
+.hire-contact{
+    padding: 0 ;
+}

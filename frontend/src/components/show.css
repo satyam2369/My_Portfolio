@@ -1,0 +1,27 @@
+.show-main{
+    display: flex;
+    width: 80%;
+    /* background-color: black; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 40px; */
+    padding: 10%;
+    padding-top: 6%;
+    background: linear-gradient(to bottom,  rgb(247, 249, 253),rgb(255, 255, 255));
+    
+
+}
+.show-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+
+}
+
+.show-div img{
+    filter: drop-shadow(0px 0px 0px  rgba(0, 0, 0, 0.539) );
+    width: 100%;
+}

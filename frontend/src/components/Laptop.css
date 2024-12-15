@@ -1,0 +1,43 @@
+.phonePng{
+    position: absolute;
+    /* z-index: 9; */
+    margin-left: 57%;
+    height: 68vh;
+    margin-top: 5vh;
+    filter: drop-shadow(6px 6px 5px  rgba(0, 0, 0, 0.7) );
+    /* overflow: hidden; */
+}
+.phone-container{
+    display: flex;
+    /* flex-direction: row; */
+    /* padding-left: 10vw; */
+    /* padding-right: -10vw; */
+    /* background-color: aqua; */
+    /* height: 50vh; */
+    /* width: 50vw; */
+}
+.icon-div{
+    height: 4vh;
+    width: 2vw;
+    margin-left: 62.3%;
+    position: absolute;
+    margin-top: 20vh;
+    z-index: 2;
+    /* margin-left: ; */
+    cursor: pointer;
+
+}
+.insta{
+    margin-top: 25.5vh;
+}
+.gmail{
+    margin-top: 31.5vh;
+}
+
+.git{
+    margin-top: 37.8vh;
+}
+
+.leetcode{
+    margin-top: 44vh;
+}

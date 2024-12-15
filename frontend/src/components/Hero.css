@@ -1,0 +1,100 @@
+:root {
+    --primary-color: #2d3f5c;
+    --primary-color2: #ffffff;
+    /* --primary-color: #FFB22C; */
+    --secondary-color: rgb(249, 215, 90);
+    --text-color: white;
+    --background: rgb(215, 225, 233);
+    /* --button-hover-color: rgba(255, 47, 32, 0.8); */
+}
+
+.contain{
+    display: flex;
+    
+}
+
+.heromain{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+    /* background: linear-gradient(to bottom, rgb(213, 224, 234), rgb(202, 220, 236)); */
+    z-index: -8;
+}
+.hero-left-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+}
+
+.back{
+    height: 85vh;
+    width: 52vw;
+    background-color: var(--primary-color);
+    border-bottom-right-radius: 160px;
+    position: absolute;
+    z-index: 0;
+    /* box-shadow: rgba(0, 0, 0, 0.9) 2.95px 2.95px 6.6px; */
+    
+}
+.line{
+    height: 2px;
+    width: 3vw;
+    /* margin-left: 16vw; */
+    background-color: white;
+    z-index: 1;
+}
+
+.welcome{
+    display: flex;
+    margin-top: 9vh;
+    z-index: 1;
+}
+.welcome p{
+    margin-top: -1.4vh;
+    color: white;
+    font-weight: 500;
+    font-size: 1.02rem;
+    margin-left: 1vw;
+    z-index: 1;
+}
+.heromain h1{
+    color: white;
+    font-size: 2.6rem;
+    /* margin-left: 16vw; */
+    z-index: 1;
+}
+.heromain h1 span{
+    color: var(--secondary-color);
+    z-index: 1;
+}
+.aim{
+    width: 38vw;
+    /* margin-left: 16vw; */
+    color:white;
+    font-weight: 500;
+    font-size: 1rem;
+    z-index: 1;
+}
+.cv{
+    height: 3vh;
+    width: 8vw;
+    border-style: none;
+    border-radius: 700px;
+    border-top-left-radius: 0;
+    text-overflow: clip;
+    /* margin-left: 16vw; */
+    background-color: var(--primary-color);
+    border: 2px solid white;
+    color: white;
+    font-size: 1.05rem;
+    font-weight: 550;
+    margin-top: 1vh;
+    cursor: pointer;
+    padding: 0.8% 1%;
+    padding-top: 0.5%;
+    padding-left: 1.6%;
+    list-style: none;
+    text-decoration: none;
+    z-index: 1;
+}
